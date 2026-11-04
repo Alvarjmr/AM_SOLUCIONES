@@ -10,7 +10,7 @@ export const CONFIG = {
   email: "ajmartinez8789@gmail.com",
   telefono: "3003897075",
   direccion: "prado centro, Medellín, Antioquia, Colombia",
-  redes: { facebook: "", instagram: "", linkedin: "", tiktok: "", youtube: "" },
+  //redes: { facebook: "", instagram: "", linkedin: "", tiktok: "", youtube: "" },
   // Opcional: URL de un servicio de formularios (por ejemplo Formspree) para
   // recibir las solicitudes por correo. Si está vacío, el formulario usa
   // WhatsApp o el correo configurados arriba.
