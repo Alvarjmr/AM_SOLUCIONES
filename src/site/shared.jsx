@@ -36,7 +36,7 @@ export function WaButton({ texto, className = "s-btn s-btn-wa", children = "Coti
 }
 
 export function Redes() {
-  const r = Object.entries(CONFIG.redes).filter(([, u]) => u);
+  const r = Object.entries(CONFIG.redes || {}).filter(([, u]) => u);
   if (!r.length) return <p className="s-muted">Redes sociales: por completar.</p>;
   return <ul className="s-redes">{r.map(([n, u]) => <li key={n}><a href={u} target="_blank" rel="noopener noreferrer">{n[0].toUpperCase() + n.slice(1)}</a></li>)}</ul>;
 }
